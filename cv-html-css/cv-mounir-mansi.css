@@ -1,0 +1,144 @@
+
+.header{ 
+    display: flex;
+    text-align:left;
+    background-color: rgb(38, 184, 194);
+    color : white;
+    padding-left: 2%;
+    justify-content: space-between;
+    
+} 
+#pc{
+    height: auto;
+    width: 40%;
+}
+
+.cheader{
+    display: flex;
+    font-size: xx-large;
+    font-display: flex;
+    object-position: right top;
+    align-items: flex-end; 
+}
+.name{
+    display: flex;
+    font-size: 3.5em;
+}
+
+ul {
+    list-style-type: none;
+  }
+
+
+mark {
+    background-color: yellow;
+     color: black;
+   }
+
+/* profil et comépence*/
+.pro-comp{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5%;
+
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    width: 30%;
+}
+.profil{
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    padding-left: 10%;
+
+}
+.competence{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30%;
+    padding-left: 10%;
+    
+}
+.star{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#stars{
+    height: auto;
+    width: 22%;
+}
+
+h2{
+    font-size: 3em;
+    background-color : rgb(252, 165, 60);
+    padding-left: 2%;
+}
+
+p{
+    font-size: 2em;  
+}
+
+.forma-exp{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.formation{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    width: 45%;
+}
+.exp-pro{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    padding-left: 10%; 
+    margin-right: 5%;
+}
+.langue-interet{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.langue{
+    display: flex;
+    flex-direction: column;
+    padding-left: 4%;
+    width: 45%;
+}
+.interet{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 45%;
+    padding-left: 10%; 
+    margin-right: 5%;
+}
+
+.mesprojets{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 4%;
+    padding-right: 5%;
+}
+.lien{
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 5%;
+}
+h3{
+    font-size: 3em;
+}
+
+
